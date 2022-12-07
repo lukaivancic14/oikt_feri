@@ -2,7 +2,7 @@
 mkdir -p Struktura/{Desktop,Documents,Downloads,Pictures,Videos}
 for i in {1...5}
 do
-	kdir "mapa$i"
+	sudo mkdir "mapa$i"
 done
 for i in {1...5}
 do
