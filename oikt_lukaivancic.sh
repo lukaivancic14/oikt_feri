@@ -1,13 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 mkdir -p Struktura/{Desktop, Documents, Downloads, Pictures, Videos}
 
-for i in{1...5}
+for i in {1...5}
 do
    mkdir "mapa$i"
 done
 
-for i in{1...5}
+for i in {1...5}
 do
    sudo useradd "uporabnik$i"
    sudo usermod -aG sudo uporabnik$i
