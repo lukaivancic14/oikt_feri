@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-mkdir -p Struktura/{Desktop, Documents, Downloads, Pictures, Videos}
+mkdir -p Struktura/{Desktop,Documents,Downloads,Pictures,Videos}
 
 for i in {1...5}
 do
