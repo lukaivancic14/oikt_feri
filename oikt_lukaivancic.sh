@@ -2,12 +2,12 @@
 mkdir -p Struktura/{Desktop,Documents,Downloads,Pictures,Videos}
 for i in {1...5}
 do
-   mkdir "mapa$i"
+	kdir "mapa$i"
 done
 for i in {1...5}
 do
-   sudo useradd "uporabnik$i"
-   sudo usermod -aG sudo uporabnik$i
+	sudo useradd "uporabnik$i"
+	sudo usermod -aG sudo uporabnik$i
 done
 sudo apt-get update
 sudo apt-get upgrade
